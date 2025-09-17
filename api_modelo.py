@@ -122,7 +122,7 @@ def predict():
     db.add(new_pred)
     db.commit()
     db.close()
-    
+
     return jsonify({'prediction': predicted_class})
 
 
@@ -157,3 +157,4 @@ def list_predictions():
 
 if __name__=='__main__':
     app.run(debug=True)
+#teste segundo commit tortoise
